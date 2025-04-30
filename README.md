@@ -115,9 +115,6 @@ Messages from users are routed to a manager for personal support. The manager ca
 ## 📄 License
 
 MIT License
-```
-
----
 
 ## 🎓 `coursebot` - README.md
 
