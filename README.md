@@ -121,7 +121,6 @@ MIT License
 
 ## 🎓 `coursebot` - README.md
 
-```markdown
 # CourseBot
 
 CourseBot is a simple Telegram bot that provides users with course access links and blog discussions in multiple languages. Built using the official `python-telegram-bot` library, it supports inline button interaction and internationalization.
