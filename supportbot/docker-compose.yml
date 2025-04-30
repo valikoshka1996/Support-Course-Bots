@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: support_telegram_bot
+    environment:
+      - ENV_FILE=.env
+    volumes:
+      - .:/app  # Зв'язуємо локальну директорію з директорією контейнера
+    ports:
+      - "8000:8000"  # Можна вказати порт, якщо хочеш відкрити щось на зовнішньому світі
+    restart: always  # Перезапускати контейнер в разі збоїв

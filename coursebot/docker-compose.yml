@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  course-bot:
+    build: .
+    environment:
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+      - COURSE_UA=${COURSE_UA}
+      - COURSE_RU=${COURSE_RU}
+      - COURSE_EN=${COURSE_EN}
+      - BLOG_UA=${BLOG_UA}
+      - BLOG_RU=${BLOG_RU}
+      - BLOG_EN=${BLOG_EN}
+    volumes:
+      - .:/app
+    restart: always
